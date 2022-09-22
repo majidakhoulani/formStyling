@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header {
+    width: 600px;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #eee;
+    border-radius:3% 0% 1% 75%;
+
+}
+header h1{
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;  
+}
+.container{
+    width: 700px;
+    margin: 20px auto;
+    padding: 10px;
+}
+fieldset{
+  background-image: url('pexels-photo-4862892.webp');
+  border-radius: 10px;
+}
+legend{
+    font-size: 18px;
+    background-color: white;
+    margin: 0 25px 0;
+    border: 1px solid black;
+    padding: 5px;                                       
+    line-height: 1.5;
+    border-radius: 10px;
+}
+
+label,input,textarea{
+    display:block; 
+}
+label{
+    margin:20px 0 0px 195px ;
+    width: 306px;
+    height: 30px;
+    line-height: 2;
+    background-color: rgb(202, 122, 122);
+}
+input{
+    width: 300px;
+    height: 30px;
+}
+textarea{
+    width: 300px;
+    resize: none;
+}
+input,textarea{
+    margin: 0 auto;
+    border: 1px solid rgb(26, 21, 21);
+    padding: 2px;
+    border-top-style: none;
+}
+::placeholder{
+    color: red;
+}
+.button{
+    width: 300px;
+    text-align: center;
+    margin: 10px auto;
+}
+input[type="submit"],input[type="reset"]{
+    display: inline-block;
+    width: 40%;
+    height: 40px;
+    background-color: orange;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+#but1:hover{
+   color:white;
+   border-color: white;
+   cursor:pointer;
+}
+#but2:hover{
+    color:rgb(233, 236, 56);
+    border-color: rgb(233, 236, 56);
+    cursor:pointer;
+ }
